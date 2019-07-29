@@ -1,0 +1,335 @@
+@media screen and (min-width: 1200px) {
+    .item2{
+        display: none;
+    }
+
+    .topnav{
+        display: none;
+    }
+}
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+
+    .container{
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .title h1{
+        margin-left: 2em;
+    }
+
+    .main-nav{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .topnav{
+        display: none;
+    }
+
+    .boxa {
+        background-image: url(../img/amy-shamblen-662202-unsplash.jpg);
+        background-size: cover;
+        background-position: 100%;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0px;
+        margin-left: 20px;
+        font-size: 150%;
+        height: 35vh;
+        width: 100%;
+    }
+
+    .boxb {
+        background-image: url(../img/whitbyrange.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0px;
+        font-size: 150%;
+        height: 35vh;
+        width: 100%
+    }
+
+    .infobox{
+         margin-top: 14em;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 2px;
+        background-color: #fff;
+        color: #444;
+    }
+
+    .box2a {
+        margin-left: 12px;
+    }
+
+    .item2 {
+        display: none;
+    
+    }
+
+    .box3c{
+        background-position: center;
+    }
+
+
+    
+}
+  
+
+
+@media screen and (max-width: 600px){
+
+    .container{
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    display: none;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.row {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 2px;
+    background-color: #fff;
+    color: #444;
+}
+
+.boxa {
+    background-image: url(../img/amy-shamblen-662202-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 150%;
+    height: 35vh;
+    width: 100%;
+}
+
+.boxb {
+    background-image: url(../img/whitbyrange.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 150%;
+    height: 35vh;
+    width: 100%
+}
+
+.box3a {
+    background-image: url(../img/monika-grabkowska-664428-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    height: 16rem;
+}
+
+.box3b {
+    background-image: url(../img/tanalee-youngblood-344759-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    height: 16rem;
+}
+
+.box3c {
+    background-image: url(../img/alexandra-gorn-328026-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    height: 16rem;
+}
+
+.box3d {
+    background-image: url(../img/christie-kim-769380-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    height: 16rem;
+}
+
+
+.box2a {
+    background-image: url(../img/thomas-ae-602202-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 150%;
+    height: 20rem;
+}
+
+.box2b {
+    background-image: url(../img/beatriz-perez-moya-191993-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 150%;
+    height: 20rem;
+}
+
+.box2c {
+    display: none;
+}
+
+
+.row2 {
+    display: grid;
+    grid-template-columns: 11em 11em;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    background-color: #fff;
+    color: #444;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.box2c {
+    grid-column: first;
+}
+
+.infobox{
+    margin-top: 13em;
+}
+
+.row3 {
+    display: grid;
+    grid-template-columns: 11em 11em;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    background-color: #fff;
+    color: #444;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+
+.item1{
+
+    display: none;
+}
+
+.item2 {
+    position: relative;
+    color:black;
+    background: white;
+    border: black 1px solid;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    height: 24%;
+    margin: auto;
+    margin-top: 12em;
+}
+
+.item2 span{
+    text-decoration: line-through;
+}
+
+.item2 h5{
+    margin: 0;
+    margin-top: 3px;
+}
+
+.bottom-nav{
+    display: none;
+    
+}
+
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social ul li {
+    max-width: 60px;
+    margin-right: 3em;
+}
+
+.copyright {
+    text-align: center;
+    margin-left: 0;
+}
+
+
+
+
+
+
+}

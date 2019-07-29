@@ -1,0 +1,316 @@
+body {
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+
+.container {
+    max-width: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 1em;
+    letter-spacing: 2px;
+}
+
+.main-nav {
+
+    width: 80%;
+    margin: auto;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: solid rgb(179, 179, 179) 1px;
+}
+
+.main-nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color:rgb(179, 179, 179);   
+}
+
+.main-nav ul li a:visited{
+    color:rgb(179, 179, 179);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    margin-top: 8px;
+}
+
+.box1 {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    height: 25rem;
+}
+
+.boxa {
+    background-image: url(../img/amy-shamblen-662202-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    height: 35rem;
+}
+
+.boxb {
+    background-image: url(../img/whitbyrange.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    height: 35rem;
+}
+
+.box2 {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    height: 10rem;
+}
+
+.box3a {
+    background-image: url(../img/monika-grabkowska-664428-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    height: 16rem;
+}
+
+.box3b {
+    background-image: url(../img/tanalee-youngblood-344759-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    height: 16rem;
+}
+
+.box3c {
+    background-image: url(../img/alexandra-gorn-328026-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    height: 16rem;
+}
+
+.box3d {
+    background-image: url(../img/christie-kim-769380-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    height: 16rem;
+}
+
+
+.box2a {
+    background-image: url(../img/thomas-ae-602202-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    height: 20rem;
+}
+
+.box2b {
+    background-image: url(../img/beatriz-perez-moya-191993-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    height: 20rem;
+}
+
+.box2c {
+    background-image: url(../img/tom-the-photographer-651516-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    height: 20rem;
+}
+
+
+
+.infobox {
+    background: white;
+    color: black;
+    font-size: 16px;
+    height: 3em;
+    text-align: center;
+    position: bottom;
+}
+
+
+.ourfav {
+    height: 5rem;
+    background: white;
+    text-align: center;
+    padding-bottom: 1em;
+    margin-left: 2em;
+    align-content: center
+}
+
+.ourfav h4 {
+    text-transform: uppercase;
+}
+
+.ourfav p {
+    font-style: italic;
+    color: rgb(179, 179, 179);
+}
+
+.row3 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.infobox {
+    position: relative;
+    height: 30%;
+    margin: auto;
+    margin-top: 70%;
+    background: white;
+    border: 1px solid black;
+    
+}
+
+.infobox h4 {
+    text-transform: uppercase;
+    color: rgb(121, 230, 175);
+    font-size: 16px;
+    padding-bottom: 0;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.infobox p {
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: rgb(179, 179, 179);
+
+}
+
+.itemnames {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.item1 {
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.item1 p{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.item1 span {
+
+    text-decoration: line-through;
+}
+
+
+.bottom-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px;
+    border-top: solid rgb(179, 179, 179) 1px;
+    border-bottom: solid rgb(179, 179, 179) 1px;
+}
+
+.bottom-nav ul li {
+    padding-left: 5em;
+    color: rgb(179, 179, 179);
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social ul li {
+    margin: 1em;
+}
+
+.copyright {
+    text-align: center;
+    margin-left: 3em;
+}
+
+.copyright h5 {
+    color: rgb(179, 179, 179);
+    font-size: 16px;
+}
+
+.copyright p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
